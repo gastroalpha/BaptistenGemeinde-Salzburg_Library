@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 400px;
+	height: 600px;
+	background-image: url("images/ibooks_wallpaper.png");
+
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+
+.container li {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 7px;
+	border: none;
+	list-style: none;
+}
+
+.row {
+	/*
+	--TODO
+	 */
+}
+
+.row li {
+	width: 55px;
+	height: 75px;
+	float: left;
+	margin-top: 28px;
+	margin-left: 20px;
+}
+
+li.last {
+	margin: 40px auto;
+	width: 200px;
+	height: 100px;
+}
+
+.row li img {
+	width: 55px;
+	height: 75px;
+	cursor: pointer;
+
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+
+.row li img:hover {
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.0);
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.0);
+}
+
+.shadow {
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
